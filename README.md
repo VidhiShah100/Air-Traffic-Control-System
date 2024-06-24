@@ -1,2 +1,3 @@
-# Air-Traffic-Control-System
-This repository hosts an Air Traffic Control System written in C. The working of an Airport is simulated through four processes - Airport, ATC, Plane and Cleanup and their interactions with one another. 
+# Air Traffic Control System
+
+This repository features an Air Traffic Control System implemented in C, simulating the operations of an airport environment using multiple processes: Airport, ATC, Plane, and Cleanup. The system incorporates concepts from Operating Systems such as Pipes, Mutex (for synchronization), Process creation, and Inter-Process Communication, specifically utilizing message queues. Essential functions like wait() and sleep() are employed to ensure smooth interaction and synchronization between processes, adhering to detailed specifications for efficient airport management simulation.
